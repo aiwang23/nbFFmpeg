@@ -10,6 +10,13 @@
 extern "C" {
 #include <libavutil/frame.h>
 #include <libavcodec/packet.h>
+#include <libavcodec/codec_id.h>
+#include <libavcodec/codec.h>
+#include <libavformat/avformat.h>
+#include <libavcodec/avcodec.h>
+#include  <libswscale/swscale.h>
+#include <libswresample/swresample.h>
+#include <libavutil/opt.h>
 }
 
 class errorMsg {

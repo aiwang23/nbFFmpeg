@@ -7,6 +7,7 @@ add_library(nbFFmpeg
         nbFFmpeg.cpp
         nbFFmpeg.h
         types.h
+        concurrentqueue.h
 )
 
 target_include_directories(nbFFmpeg PUBLIC
